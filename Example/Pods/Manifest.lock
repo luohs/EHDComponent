@@ -1,0 +1,32 @@
+PODS:
+  - EHDComponent (1.0.0):
+    - EHDComponent/Core (= 1.0.0)
+    - EHDComponent/URLRoute (= 1.0.0)
+  - EHDComponent/Core (1.0.0):
+    - EHDComponent/URLRoute
+  - EHDComponent/URLRoute (1.0.0)
+  - EHDLocalConfig (0.3.0):
+    - EHDLocalConfig/Core (= 0.3.0)
+    - EHDLocalConfig/MJExtension (= 0.3.0)
+  - EHDLocalConfig/Core (0.3.0)
+  - EHDLocalConfig/MJExtension (0.3.0):
+    - EHDLocalConfig/Core
+    - MJExtension (= 3.0.13)
+  - MJExtension (3.0.13)
+
+DEPENDENCIES:
+  - EHDComponent (from `../`)
+  - EHDLocalConfig (= 0.3.0)
+
+EXTERNAL SOURCES:
+  EHDComponent:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EHDComponent: adf5d9bc4f01bcc43a784523be5683ea2621bb59
+  EHDLocalConfig: 05e8c00a01c5c7cf0e1750ea1fb8f1dcc87d39c7
+  MJExtension: 5a52bafffdb0c4520097252474772a38022043eb
+
+PODFILE CHECKSUM: dc412d1979b74655b2e64d8bb147920a2d4a69ac
+
+COCOAPODS: 1.4.0

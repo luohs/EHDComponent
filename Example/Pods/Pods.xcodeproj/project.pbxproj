@@ -1,0 +1,1261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A238939D8FA655A2153CB75161C1EDD /* EHDConfigBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CF1448B2F6C8A8669ABDF5A80876EC /* EHDConfigBaseModel.m */; };
+		0C45C37ECC3CE2C6F4265E3E550D80A9 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E093F0EA77E475D640D68B0D72C30C /* MJPropertyType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E694422F69BDACD90BFB2C2EDF1739B /* EHDComponentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC6EAEBB48FBF1F0311C6C6E014555A /* EHDComponentHandler.m */; };
+		0F71139E9D62A1C7D65EEC4C0B689821 /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A2C3E2DE2D9A38AC446A99CBD207BD9 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1003CFF120BFB4509E9EA2AFF22017DB /* EHDLoadLocalConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A984F86CBEB87FE0D590F862EBAEAEF3 /* EHDLoadLocalConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		114A736CD8EB74E1B68E65A2CDE4D39F /* EHDLoadLocalConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C94C9975D4DED606FFE3E6EE20D7296A /* EHDLoadLocalConfig.m */; };
+		33563A812BDC230481C6188CF6D8D155 /* NSObject+ComponentBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = C78B8DC120FF803C251770186BDC7F8B /* NSObject+ComponentBridge.m */; };
+		346FB8778E328C21126B083DF5E0F8B1 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C75F0996F81724EC40F0F7C786B6634 /* MJProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D61384A033BE346E4B9B8F98E2F3A63 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FE421C65C65EF316C4EDB3E9374AA4 /* NSString+MJExtension.m */; };
+		41F4F4284D40CBBACC6E6C925674AA51 /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 99640CA8AFD45FA93D0C1B29A2C0F308 /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		421A28A729C690605E428B8025B31472 /* EHDComponentConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D01BB4070B6534B82D052A1C4A28C0 /* EHDComponentConfig.m */; };
+		42CE1B41A49D5CFD7344CE2FBD7890C8 /* EHDUIBus.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B163870DE4088894A5B687763BA04EF /* EHDUIBus.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4378EF22A6021F3E814F1220BC5AA804 /* EHDComponentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E201346E0737D43CAD36BD146774AD /* EHDComponentManager.m */; };
+		4792637076C07E7920CB0BE595F7EA8A /* EHDLocalConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7685BED53465DC28CBF9C3D5AF337962 /* EHDLocalConfig-dummy.m */; };
+		50C0BBB6E9993F08474C97566DF5F6CC /* EHDURLParse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CADFB48D35BA02C5C38055FBD14771F /* EHDURLParse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		552A79539DE3B70A9C4358644A342F69 /* EHDEventBus.h in Headers */ = {isa = PBXBuildFile; fileRef = 90349EB56EB20EC8595CDBF961037A35 /* EHDEventBus.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56CB603061335B8EAB37D51B0C05BE2C /* EHDComponentConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B18DED5F119A449324F525ED5AC702F4 /* EHDComponentConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A1FCA7FD2043844BB0455D57CC2AB8A /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1544423A87DC9A2E829A985EA2DF6222 /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B4C55A069A84AA027843B9EA8401248 /* EHDComponentRoutable.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F199B9EA5758338C6CD4F6E009C7F78 /* EHDComponentRoutable.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5C3057D7D72C9378DA234BB16DF59B73 /* EHDComponentHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 195FA11103353F6435B90EA0332E0023 /* EHDComponentHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		632A045DAB1368BF30CF4AC5E6DEB071 /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DD51FD4BE38FC0AEA010605A73694D6 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		65D636386293987C718CD024ED0CBF6E /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F588471F7782DE1334832A1F2935F53 /* NSObject+MJCoding.m */; };
+		664A1D6894B85552DA0504786EA5EFF5 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 257C1B172AB2D9DF4AE6D246B8A84D60 /* MJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D7B4809ADAF788315A9F9559EB04061 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC85D1F7699362A788BD09255AE3ECB /* MJFoundation.m */; };
+		795D7F3D90BBD5395B174ADF1A0C3969 /* EHDURLRoutePlug.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E3D6032AEB92BE202FA6B0E5D41EEB /* EHDURLRoutePlug.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D6F08A993B7B6ED487381C35848077D /* EHDComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3ED14E1CB913A0E404CE6FBE74A5FA9 /* EHDComponent-dummy.m */; };
+		8634AF145C428E5225594323F3E55712 /* EHDComponentHandlerMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 777DA802AF93DFE72257450043B4EFAE /* EHDComponentHandlerMatcher.m */; };
+		8742E7C4A4B17E642B84581955AB1A2C /* EHDUIBus.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A617B507667A5F7CA7C22926A7EDA8 /* EHDUIBus.m */; };
+		87BCD04FB64EF12D0A97827DC0DE215F /* EHDComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 83053F0439674ED9933FF2CBA61F6E05 /* EHDComponent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C9912A5A638B2342DFF79F67A17D82A /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 243A51612EFAE14C1849355CEBBE1B6A /* MJProperty.m */; };
+		905B7787B8AC9721EC9BAD82D929E267 /* EHDComponentManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0E2E18985454AB6C7E77FE8DCA3F5C /* EHDComponentManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90A238E03C03B60269011C8BD1B2952F /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0471CB1474335B321368007F44A3BCD /* MJExtension-dummy.m */; };
+		91D962EA3B78536358A97F941CA57474 /* EHDComponentMarco.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B4FBE231941F96013CB617B2466CF2 /* EHDComponentMarco.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		927E13907B34513308869C6313ACCCDB /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D82C5E1CB157C8B894F569497711C65 /* NSObject+MJKeyValue.m */; };
+		92B49F70DD499C81F1D5BC0AB81F1516 /* EHDServiceBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 930E07041CBCA3889D3D100FF83A6E83 /* EHDServiceBus.m */; };
+		966C7C7D4EC5282D74CE602492610271 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B6986BB729F7B3E3FF73260FE2463C92 /* MJExtensionConst.m */; };
+		97DE972F70714D1E67A7818EFA7ED9D9 /* Pods-EHDComponent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C6DCA43177DF6BE30530456A40F98E /* Pods-EHDComponent_Tests-dummy.m */; };
+		9BD648E5972F632042B26F7202F6D739 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CABEC8C371060AB6D13307CDC2D36F25 /* NSObject+MJProperty.m */; };
+		9E0943BF08C03AF14BA97FFD59684142 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 291B68EEC8FDB716F278DE7BA3214D6D /* NSObject+MJClass.m */; };
+		A2BA6D8B6AE3DEB08CB653458E761487 /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FC04886BB99F2D7F0A7921389B8D33 /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A8FBA4ED2EB7D3760AEB026140C5479D /* EHDServiceRoutePlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 893CD3D3CCB29886A3E6C46ADAB631BB /* EHDServiceRoutePlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A9F8EB253F446D9CC16D3F75C984B35B /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 154C7FD974EED1533CE9E168281547C5 /* MJPropertyType.m */; };
+		ADB8097CDCB045CB0665B150B966636E /* EHDComponentHandlerMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE66B8D0C10500B76046D1E9F023E91 /* EHDComponentHandlerMatcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1A5E7B865E8F1E7E9BEDCC988865604 /* EHDURLParse.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2C96EF0F7EFE4763F2CAA1E505E113 /* EHDURLParse.m */; };
+		B947908EE6A90DFF31408F6608299E3D /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 393B82EE8090842048BD351764110BBF /* MJFoundation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BBED141775AD901552E96450C5382A18 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFE82B84E2D391BB910495082BB8369 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC1341AB757F4F6FFD8093200921B171 /* EHDComponentReflect.h in Headers */ = {isa = PBXBuildFile; fileRef = 2408ED2BA5936AF2A82C98120AF0695A /* EHDComponentReflect.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C155932DDFABE20B60CAF65A82733C95 /* EHDLocalConfigProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 159CC54601807117FF8C33ECED9E5499 /* EHDLocalConfigProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C1F30F81810E0151BD47091E7F0B7B58 /* EHDComponentStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C3E7DCE4F2F946F2F7E4E44EA17F292 /* EHDComponentStruct.m */; };
+		C2C712C1D6E315859FBDCF34CB5264B2 /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 41A6554A8F6663DA999D52CDEE0CE8CB /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D11BD0ED55D8699EDAE05AC7D7B68113 /* EHDEventBus.m in Sources */ = {isa = PBXBuildFile; fileRef = CF189345CC8A88E52511EA9324BD5A27 /* EHDEventBus.m */; };
+		D1C09B2B01A5C499ADA31707346284A4 /* EHDURLRoute.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA97FA33295F02E09CA0A92445C3B26 /* EHDURLRoute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D2D5E3949E2450A1FF17F3FDC8968477 /* EHDServiceBus.h in Headers */ = {isa = PBXBuildFile; fileRef = B80F9B80ED2937A75AFEC818528683DA /* EHDServiceBus.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D858A358B3F124D1FBD02D10793846B5 /* EHDURLRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EF0D448CB30C384694CD10FD916339 /* EHDURLRoute.m */; };
+		D91B15AE615FF844ED810F591DCBE5E6 /* EHDComponentReflect.m in Sources */ = {isa = PBXBuildFile; fileRef = B4982A6BEF9F6C0A4A2248B95F29CC6C /* EHDComponentReflect.m */; };
+		E0350E5A5903E2624CFD1DB199C9EE84 /* Pods-EHDComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61ABF4AD213258C8F7BCAB74ECD84A27 /* Pods-EHDComponent_Example-dummy.m */; };
+		E52C93664122ABA6329562213DE14497 /* EHDComponentHandlerPlug.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABD9B16C7CE194BD63D6F9970422514 /* EHDComponentHandlerPlug.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5E5263185FCC0F26C759765D2BBE08C /* NSObject+ComponentBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A99BA11C3C8AD5F382989984478E020 /* NSObject+ComponentBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E612324F78A6BF9D82A883AF29DC138D /* EHDConfigBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B777927C9C3B1B51F8A7F8E616C89F60 /* EHDConfigBaseModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EFF4CD60CEB530FCB3BA0BA9774D053C /* EHDComponentStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 4790499747851143E09670D287BC4F60 /* EHDComponentStruct.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FAEE789B4EFBCAD3DFB23D6CA383447D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4E56C43E8EEB7D4F3AF0DCDB6D7397 /* ReplaceMe.m */; };
+		FAF81219A301A9518DC1C6F80569611E /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = A47B14B50B8C86D84B7C40B0E2A59F34 /* MJPropertyKey.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C6BC309607C089369336E4C52C0BD84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BD1CA453CA8D39A50D92AB4AE7FC2EF;
+			remoteInfo = MJExtension;
+		};
+		97E35D3D13652402D2FFD8584CD00C1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96EF2DE92514B92DD23E7738AA901B5A;
+			remoteInfo = EHDLocalConfig;
+		};
+		F01C7A4EF73770594AB74197AB9F09D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BD1CA453CA8D39A50D92AB4AE7FC2EF;
+			remoteInfo = MJExtension;
+		};
+		F6FFB946CE1E232CE05865B07B3F270C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CA3DF51D0B25B52E0E8234480C1D678;
+			remoteInfo = EHDComponent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C3EB3835C62C9113ABE3604FC54F28 /* Pods-EHDComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EHDComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04FE421C65C65EF316C4EDB3E9374AA4 /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
+		05851D8DF06397AA1E32E728D14BA54D /* libEHDComponent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEHDComponent.a; path = libEHDComponent.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E3D6032AEB92BE202FA6B0E5D41EEB /* EHDURLRoutePlug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EHDURLRoutePlug.h; sourceTree = "<group>"; };
+		14B4FBE231941F96013CB617B2466CF2 /* EHDComponentMarco.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EHDComponentMarco.h; sourceTree = "<group>"; };
+		1544423A87DC9A2E829A985EA2DF6222 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		154C7FD974EED1533CE9E168281547C5 /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
+		159CC54601807117FF8C33ECED9E5499 /* EHDLocalConfigProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EHDLocalConfigProtocol.h; path = EHDLocalConfig/Classes/BaseModel/EHDLocalConfigProtocol.h; sourceTree = "<group>"; };
+		1907B5EAA82AB344D976D923F152A8F3 /* Pods-EHDComponent_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EHDComponent_Example-frameworks.sh"; sourceTree = "<group>"; };
+		195FA11103353F6435B90EA0332E0023 /* EHDComponentHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EHDComponentHandler.h; sourceTree = "<group>"; };
+		1BF27E91F0BE88A410E6D16806288808 /* Pods-EHDComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EHDComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1DE66B8D0C10500B76046D1E9F023E91 /* EHDComponentHandlerMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EHDComponentHandlerMatcher.h; sourceTree = "<group>"; };
+		212FEBCDEF8C342E401632B26BF76B66 /* Pods-EHDComponent_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EHDComponent_Tests-resources.sh"; sourceTree = "<group>"; };
+		2408ED2BA5936AF2A82C98120AF0695A /* EHDComponentReflect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EHDComponentReflect.h; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		243A51612EFAE14C1849355CEBBE1B6A /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
+		257C1B172AB2D9DF4AE6D246B8A84D60 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
+		28EF0D448CB30C384694CD10FD916339 /* EHDURLRoute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EHDURLRoute.m; path = EHDComponent/Classes/Extension/Route/URLRoute/EHDURLRoute.m; sourceTree = "<group>"; };
+		291B68EEC8FDB716F278DE7BA3214D6D /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
+		2A2C3E2DE2D9A38AC446A99CBD207BD9 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
+		2A99BA11C3C8AD5F382989984478E020 /* NSObject+ComponentBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+ComponentBridge.h"; sourceTree = "<group>"; };
+		2DC85D1F7699362A788BD09255AE3ECB /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
+		393B82EE8090842048BD351764110BBF /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
+		4136AAA22E8A7C2797992EA2F4A53311 /* EHDComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = EHDComponent.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		41A6554A8F6663DA999D52CDEE0CE8CB /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
+		41D01BB4070B6534B82D052A1C4A28C0 /* EHDComponentConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EHDComponentConfig.m; sourceTree = "<group>"; };
+		44075DD3F874CF2FB7D80A8B8004A0C4 /* MJExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.xcconfig; sourceTree = "<group>"; };
+		46C6DCA43177DF6BE30530456A40F98E /* Pods-EHDComponent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EHDComponent_Tests-dummy.m"; sourceTree = "<group>"; };
+		4790499747851143E09670D287BC4F60 /* EHDComponentStruct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EHDComponentStruct.h; sourceTree = "<group>"; };
+		48E093F0EA77E475D640D68B0D72C30C /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
+		4E47F5D733FE6F61DBD93FF72A9A9226 /* libPods-EHDComponent_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-EHDComponent_Tests.a"; path = "libPods-EHDComponent_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		587AD140A91F7EFD202B517B847F85CE /* libMJExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJExtension.a; path = libMJExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CADFB48D35BA02C5C38055FBD14771F /* EHDURLParse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EHDURLParse.h; path = EHDComponent/Classes/Extension/Route/URLRoute/EHDURLParse.h; sourceTree = "<group>"; };
+		5DD51FD4BE38FC0AEA010605A73694D6 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
+		5E71E50433EE77CA50A72EF91DD0F32D /* Pods-EHDComponent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EHDComponent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5EA97FA33295F02E09CA0A92445C3B26 /* EHDURLRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EHDURLRoute.h; path = EHDComponent/Classes/Extension/Route/URLRoute/EHDURLRoute.h; sourceTree = "<group>"; };
+		60DA79C51BB7B2C4BB0582ABB272C074 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6193FE14C86AB7CC3BE883EDD0266237 /* EHDComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EHDComponent-prefix.pch"; sourceTree = "<group>"; };
+		61ABF4AD213258C8F7BCAB74ECD84A27 /* Pods-EHDComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EHDComponent_Example-dummy.m"; sourceTree = "<group>"; };
+		69CF1448B2F6C8A8669ABDF5A80876EC /* EHDConfigBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EHDConfigBaseModel.m; path = EHDLocalConfig/Classes/BaseModel/EHDConfigBaseModel.m; sourceTree = "<group>"; };
+		6BFE82B84E2D391BB910495082BB8369 /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
+		6C75F0996F81724EC40F0F7C786B6634 /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
+		6E9F970F314DA215722B0B3E80696C9D /* EHDComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EHDComponent.xcconfig; sourceTree = "<group>"; };
+		6F588471F7782DE1334832A1F2935F53 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		705A5D11F6A8570D6E6A9F942B1449AD /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
+		72AF2E48C6BE86EAB2763DB23F0291EC /* EHDLocalConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EHDLocalConfig-prefix.pch"; sourceTree = "<group>"; };
+		74E201346E0737D43CAD36BD146774AD /* EHDComponentManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EHDComponentManager.m; sourceTree = "<group>"; };
+		7685BED53465DC28CBF9C3D5AF337962 /* EHDLocalConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EHDLocalConfig-dummy.m"; sourceTree = "<group>"; };
+		777DA802AF93DFE72257450043B4EFAE /* EHDComponentHandlerMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EHDComponentHandlerMatcher.m; sourceTree = "<group>"; };
+		7ABD9B16C7CE194BD63D6F9970422514 /* EHDComponentHandlerPlug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EHDComponentHandlerPlug.h; sourceTree = "<group>"; };
+		7C3E7DCE4F2F946F2F7E4E44EA17F292 /* EHDComponentStruct.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EHDComponentStruct.m; sourceTree = "<group>"; };
+		83053F0439674ED9933FF2CBA61F6E05 /* EHDComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EHDComponent.h; sourceTree = "<group>"; };
+		887FC86D42BF89C9E962D2F44B846CE2 /* Pods-EHDComponent_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EHDComponent_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		889140845A06F4089E404E7254AA81DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		893CD3D3CCB29886A3E6C46ADAB631BB /* EHDServiceRoutePlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EHDServiceRoutePlugin.h; sourceTree = "<group>"; };
+		8B163870DE4088894A5B687763BA04EF /* EHDUIBus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EHDUIBus.h; sourceTree = "<group>"; };
+		8D82C5E1CB157C8B894F569497711C65 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		8F199B9EA5758338C6CD4F6E009C7F78 /* EHDComponentRoutable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EHDComponentRoutable.h; sourceTree = "<group>"; };
+		90349EB56EB20EC8595CDBF961037A35 /* EHDEventBus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EHDEventBus.h; sourceTree = "<group>"; };
+		90E882EB670A2C9E00D9DC34AFA2FB9E /* Pods-EHDComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EHDComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		90FC04886BB99F2D7F0A7921389B8D33 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		930E07041CBCA3889D3D100FF83A6E83 /* EHDServiceBus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EHDServiceBus.m; sourceTree = "<group>"; };
+		99640CA8AFD45FA93D0C1B29A2C0F308 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		A0471CB1474335B321368007F44A3BCD /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
+		A3ED14E1CB913A0E404CE6FBE74A5FA9 /* EHDComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EHDComponent-dummy.m"; sourceTree = "<group>"; };
+		A47B14B50B8C86D84B7C40B0E2A59F34 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
+		A6DFBD5EB51CAA0C41C68FA4F004C3D0 /* Pods-EHDComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EHDComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A984F86CBEB87FE0D590F862EBAEAEF3 /* EHDLoadLocalConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EHDLoadLocalConfig.h; path = EHDLocalConfig/Classes/EHDLoadLocalConfig.h; sourceTree = "<group>"; };
+		AE9030057C8775379599AC489F95702A /* EHDLocalConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EHDLocalConfig.xcconfig; sourceTree = "<group>"; };
+		B18DED5F119A449324F525ED5AC702F4 /* EHDComponentConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EHDComponentConfig.h; sourceTree = "<group>"; };
+		B4982A6BEF9F6C0A4A2248B95F29CC6C /* EHDComponentReflect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EHDComponentReflect.m; sourceTree = "<group>"; };
+		B6986BB729F7B3E3FF73260FE2463C92 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
+		B777927C9C3B1B51F8A7F8E616C89F60 /* EHDConfigBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EHDConfigBaseModel.h; path = EHDLocalConfig/Classes/BaseModel/EHDConfigBaseModel.h; sourceTree = "<group>"; };
+		B80F9B80ED2937A75AFEC818528683DA /* EHDServiceBus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EHDServiceBus.h; sourceTree = "<group>"; };
+		BA5BC7620C00EDC16B5F6A5B02E0B6BF /* libPods-EHDComponent_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-EHDComponent_Example.a"; path = "libPods-EHDComponent_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2C96EF0F7EFE4763F2CAA1E505E113 /* EHDURLParse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EHDURLParse.m; path = EHDComponent/Classes/Extension/Route/URLRoute/EHDURLParse.m; sourceTree = "<group>"; };
+		C78B8DC120FF803C251770186BDC7F8B /* NSObject+ComponentBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ComponentBridge.m"; sourceTree = "<group>"; };
+		C7B0656937A29523D49A1A0492D77249 /* Pods-EHDComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EHDComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C94C9975D4DED606FFE3E6EE20D7296A /* EHDLoadLocalConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EHDLoadLocalConfig.m; path = EHDLocalConfig/Classes/EHDLoadLocalConfig.m; sourceTree = "<group>"; };
+		CABEC8C371060AB6D13307CDC2D36F25 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		CF189345CC8A88E52511EA9324BD5A27 /* EHDEventBus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EHDEventBus.m; sourceTree = "<group>"; };
+		D0A9F12559E4618D3B4F68FF95ED69CD /* Pods-EHDComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EHDComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D4A617B507667A5F7CA7C22926A7EDA8 /* EHDUIBus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EHDUIBus.m; sourceTree = "<group>"; };
+		DBC6EAEBB48FBF1F0311C6C6E014555A /* EHDComponentHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EHDComponentHandler.m; sourceTree = "<group>"; };
+		DE1D839CD3AD7F64F8768F8FFE0A8366 /* libEHDLocalConfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEHDLocalConfig.a; path = libEHDLocalConfig.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4E56C43E8EEB7D4F3AF0DCDB6D7397 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = EHDLocalConfig/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		DF7044AF800DA740801E93A752706182 /* Pods-EHDComponent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EHDComponent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC0E2E18985454AB6C7E77FE8DCA3F5C /* EHDComponentManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EHDComponentManager.h; sourceTree = "<group>"; };
+		EE909534F37CCD5C971EEB74FBF2448C /* Pods-EHDComponent_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EHDComponent_Example-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08E3CF8787E0D4C61BCE227EE2EB46DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A2C3FEE45B09A4B536D13DEB556ED35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6E32DC7B19C83B9EFCFCC405BE9077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D1453403C8099B97E68EA74789079E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9B4FAC1B6A5C6B03AD33CD4F6856A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0772D6D835B1F07B6D3C64559F829D23 /* PlugInterface */ = {
+			isa = PBXGroup;
+			children = (
+				7ABD9B16C7CE194BD63D6F9970422514 /* EHDComponentHandlerPlug.h */,
+				8F199B9EA5758338C6CD4F6E009C7F78 /* EHDComponentRoutable.h */,
+				893CD3D3CCB29886A3E6C46ADAB631BB /* EHDServiceRoutePlugin.h */,
+				11E3D6032AEB92BE202FA6B0E5D41EEB /* EHDURLRoutePlug.h */,
+			);
+			name = PlugInterface;
+			path = PlugInterface;
+			sourceTree = "<group>";
+		};
+		1EF1D2F9A62C88BC877FC64529E69D2F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE9030057C8775379599AC489F95702A /* EHDLocalConfig.xcconfig */,
+				7685BED53465DC28CBF9C3D5AF337962 /* EHDLocalConfig-dummy.m */,
+				72AF2E48C6BE86EAB2763DB23F0291EC /* EHDLocalConfig-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EHDLocalConfig";
+			sourceTree = "<group>";
+		};
+		25C8EC28F8B0D448D2AB2900B66DA792 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A63D3EB2F771D220A84D122A2A7DC753 /* EHDComponent */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		387289BAF64B85D85B892CFD65196967 /* Pods-EHDComponent_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5E71E50433EE77CA50A72EF91DD0F32D /* Pods-EHDComponent_Tests-acknowledgements.markdown */,
+				DF7044AF800DA740801E93A752706182 /* Pods-EHDComponent_Tests-acknowledgements.plist */,
+				46C6DCA43177DF6BE30530456A40F98E /* Pods-EHDComponent_Tests-dummy.m */,
+				887FC86D42BF89C9E962D2F44B846CE2 /* Pods-EHDComponent_Tests-frameworks.sh */,
+				212FEBCDEF8C342E401632B26BF76B66 /* Pods-EHDComponent_Tests-resources.sh */,
+				A6DFBD5EB51CAA0C41C68FA4F004C3D0 /* Pods-EHDComponent_Tests.debug.xcconfig */,
+				1BF27E91F0BE88A410E6D16806288808 /* Pods-EHDComponent_Tests.release.xcconfig */,
+			);
+			name = "Pods-EHDComponent_Tests";
+			path = "Target Support Files/Pods-EHDComponent_Tests";
+			sourceTree = "<group>";
+		};
+		4EE4AFF99E41CAC35467B12EB2388052 /* WorkBus */ = {
+			isa = PBXGroup;
+			children = (
+				90349EB56EB20EC8595CDBF961037A35 /* EHDEventBus.h */,
+				CF189345CC8A88E52511EA9324BD5A27 /* EHDEventBus.m */,
+				B80F9B80ED2937A75AFEC818528683DA /* EHDServiceBus.h */,
+				930E07041CBCA3889D3D100FF83A6E83 /* EHDServiceBus.m */,
+				8B163870DE4088894A5B687763BA04EF /* EHDUIBus.h */,
+				D4A617B507667A5F7CA7C22926A7EDA8 /* EHDUIBus.m */,
+			);
+			name = WorkBus;
+			path = WorkBus;
+			sourceTree = "<group>";
+		};
+		5A620B61B3447B7B59C19DC74998557D /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				257C1B172AB2D9DF4AE6D246B8A84D60 /* MJExtension.h */,
+				5DD51FD4BE38FC0AEA010605A73694D6 /* MJExtensionConst.h */,
+				B6986BB729F7B3E3FF73260FE2463C92 /* MJExtensionConst.m */,
+				393B82EE8090842048BD351764110BBF /* MJFoundation.h */,
+				2DC85D1F7699362A788BD09255AE3ECB /* MJFoundation.m */,
+				6C75F0996F81724EC40F0F7C786B6634 /* MJProperty.h */,
+				243A51612EFAE14C1849355CEBBE1B6A /* MJProperty.m */,
+				2A2C3E2DE2D9A38AC446A99CBD207BD9 /* MJPropertyKey.h */,
+				A47B14B50B8C86D84B7C40B0E2A59F34 /* MJPropertyKey.m */,
+				48E093F0EA77E475D640D68B0D72C30C /* MJPropertyType.h */,
+				154C7FD974EED1533CE9E168281547C5 /* MJPropertyType.m */,
+				41A6554A8F6663DA999D52CDEE0CE8CB /* NSObject+MJClass.h */,
+				291B68EEC8FDB716F278DE7BA3214D6D /* NSObject+MJClass.m */,
+				99640CA8AFD45FA93D0C1B29A2C0F308 /* NSObject+MJCoding.h */,
+				6F588471F7782DE1334832A1F2935F53 /* NSObject+MJCoding.m */,
+				1544423A87DC9A2E829A985EA2DF6222 /* NSObject+MJKeyValue.h */,
+				8D82C5E1CB157C8B894F569497711C65 /* NSObject+MJKeyValue.m */,
+				90FC04886BB99F2D7F0A7921389B8D33 /* NSObject+MJProperty.h */,
+				CABEC8C371060AB6D13307CDC2D36F25 /* NSObject+MJProperty.m */,
+				6BFE82B84E2D391BB910495082BB8369 /* NSString+MJExtension.h */,
+				04FE421C65C65EF316C4EDB3E9374AA4 /* NSString+MJExtension.m */,
+				9C2039D305ED614E438E74EAE3ACB3D7 /* Support Files */,
+			);
+			name = MJExtension;
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		67E4A90F4281CE1654B0FF2A065FE12D /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				B777927C9C3B1B51F8A7F8E616C89F60 /* EHDConfigBaseModel.h */,
+				69CF1448B2F6C8A8669ABDF5A80876EC /* EHDConfigBaseModel.m */,
+				159CC54601807117FF8C33ECED9E5499 /* EHDLocalConfigProtocol.h */,
+			);
+			name = MJExtension;
+			sourceTree = "<group>";
+		};
+		68D13F24EC1A5534B433F6F584AD0275 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCB2221641CC0C47A1A470B8B94EE5AD /* EHDLocalConfig */,
+				5A620B61B3447B7B59C19DC74998557D /* MJExtension */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71DDA39B3FF2EA8B2B46EB78D4C92FF0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D7224C6DF89258E38B3602E5C4060AC7 /* Common */,
+				FD4C01EDC2E020ADCF44C4752EE4F17A /* Core */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7E8CE74AB1C603C628141CD51C58E733 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E9F970F314DA215722B0B3E80696C9D /* EHDComponent.xcconfig */,
+				A3ED14E1CB913A0E404CE6FBE74A5FA9 /* EHDComponent-dummy.m */,
+				6193FE14C86AB7CC3BE883EDD0266237 /* EHDComponent-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EHDComponent";
+			sourceTree = "<group>";
+		};
+		93095EC3A451241E15191255C1A77F55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05851D8DF06397AA1E32E728D14BA54D /* libEHDComponent.a */,
+				DE1D839CD3AD7F64F8768F8FFE0A8366 /* libEHDLocalConfig.a */,
+				587AD140A91F7EFD202B517B847F85CE /* libMJExtension.a */,
+				BA5BC7620C00EDC16B5F6A5B02E0B6BF /* libPods-EHDComponent_Example.a */,
+				4E47F5D733FE6F61DBD93FF72A9A9226 /* libPods-EHDComponent_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99FBDE91252F7D381A7C94C6B1485A54 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0EB9152873D5F477BFEA2A3F784DCEB /* Pods-EHDComponent_Example */,
+				387289BAF64B85D85B892CFD65196967 /* Pods-EHDComponent_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9C2039D305ED614E438E74EAE3ACB3D7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				44075DD3F874CF2FB7D80A8B8004A0C4 /* MJExtension.xcconfig */,
+				A0471CB1474335B321368007F44A3BCD /* MJExtension-dummy.m */,
+				705A5D11F6A8570D6E6A9F942B1449AD /* MJExtension-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJExtension";
+			sourceTree = "<group>";
+		};
+		A63D3EB2F771D220A84D122A2A7DC753 /* EHDComponent */ = {
+			isa = PBXGroup;
+			children = (
+				71DDA39B3FF2EA8B2B46EB78D4C92FF0 /* Core */,
+				F72EDC6FB0D209D7EACDA066E09054B9 /* Pod */,
+				7E8CE74AB1C603C628141CD51C58E733 /* Support Files */,
+				C3CD4BE793CB7BD346C208AD1654EA2C /* URLRoute */,
+			);
+			name = EHDComponent;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B5A036FB1D9847DEDEF2BD86C131885D /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				EDD8E848EFA9D6D80BBBA5085C40360B /* Manager */,
+				C4E6990E7658CA7596CD94E9B1667CCE /* Recognizer */,
+				4EE4AFF99E41CAC35467B12EB2388052 /* WorkBus */,
+			);
+			name = Component;
+			path = Component;
+			sourceTree = "<group>";
+		};
+		C3CD4BE793CB7BD346C208AD1654EA2C /* URLRoute */ = {
+			isa = PBXGroup;
+			children = (
+				5CADFB48D35BA02C5C38055FBD14771F /* EHDURLParse.h */,
+				BE2C96EF0F7EFE4763F2CAA1E505E113 /* EHDURLParse.m */,
+				5EA97FA33295F02E09CA0A92445C3B26 /* EHDURLRoute.h */,
+				28EF0D448CB30C384694CD10FD916339 /* EHDURLRoute.m */,
+			);
+			name = URLRoute;
+			sourceTree = "<group>";
+		};
+		C4E6990E7658CA7596CD94E9B1667CCE /* Recognizer */ = {
+			isa = PBXGroup;
+			children = (
+				1DE66B8D0C10500B76046D1E9F023E91 /* EHDComponentHandlerMatcher.h */,
+				777DA802AF93DFE72257450043B4EFAE /* EHDComponentHandlerMatcher.m */,
+				2408ED2BA5936AF2A82C98120AF0695A /* EHDComponentReflect.h */,
+				B4982A6BEF9F6C0A4A2248B95F29CC6C /* EHDComponentReflect.m */,
+			);
+			name = Recognizer;
+			path = Recognizer;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				25C8EC28F8B0D448D2AB2900B66DA792 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				68D13F24EC1A5534B433F6F584AD0275 /* Pods */,
+				93095EC3A451241E15191255C1A77F55 /* Products */,
+				99FBDE91252F7D381A7C94C6B1485A54 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1DDB1B77FCF5DA0288608ADC255FBC9 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				2A99BA11C3C8AD5F382989984478E020 /* NSObject+ComponentBridge.h */,
+				C78B8DC120FF803C251770186BDC7F8B /* NSObject+ComponentBridge.m */,
+			);
+			name = Layer;
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		D378741E6DA3E48AB4AF2A7398F32B9D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A984F86CBEB87FE0D590F862EBAEAEF3 /* EHDLoadLocalConfig.h */,
+				C94C9975D4DED606FFE3E6EE20D7296A /* EHDLoadLocalConfig.m */,
+				DF4E56C43E8EEB7D4F3AF0DCDB6D7397 /* ReplaceMe.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		D7224C6DF89258E38B3602E5C4060AC7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				83053F0439674ED9933FF2CBA61F6E05 /* EHDComponent.h */,
+				B18DED5F119A449324F525ED5AC702F4 /* EHDComponentConfig.h */,
+				41D01BB4070B6534B82D052A1C4A28C0 /* EHDComponentConfig.m */,
+				14B4FBE231941F96013CB617B2466CF2 /* EHDComponentMarco.h */,
+			);
+			name = Common;
+			path = EHDComponent/Classes/Common;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE9834042BCCF970B73F4D302C33D6A7 /* AbsLayer */ = {
+			isa = PBXGroup;
+			children = (
+				FE7B7B485D2919B6CCE60B4979D6D7F7 /* Handler */,
+				D1DDB1B77FCF5DA0288608ADC255FBC9 /* Layer */,
+			);
+			name = AbsLayer;
+			path = AbsLayer;
+			sourceTree = "<group>";
+		};
+		E0EB9152873D5F477BFEA2A3F784DCEB /* Pods-EHDComponent_Example */ = {
+			isa = PBXGroup;
+			children = (
+				04C3EB3835C62C9113ABE3604FC54F28 /* Pods-EHDComponent_Example-acknowledgements.markdown */,
+				C7B0656937A29523D49A1A0492D77249 /* Pods-EHDComponent_Example-acknowledgements.plist */,
+				61ABF4AD213258C8F7BCAB74ECD84A27 /* Pods-EHDComponent_Example-dummy.m */,
+				1907B5EAA82AB344D976D923F152A8F3 /* Pods-EHDComponent_Example-frameworks.sh */,
+				EE909534F37CCD5C971EEB74FBF2448C /* Pods-EHDComponent_Example-resources.sh */,
+				90E882EB670A2C9E00D9DC34AFA2FB9E /* Pods-EHDComponent_Example.debug.xcconfig */,
+				D0A9F12559E4618D3B4F68FF95ED69CD /* Pods-EHDComponent_Example.release.xcconfig */,
+			);
+			name = "Pods-EHDComponent_Example";
+			path = "Target Support Files/Pods-EHDComponent_Example";
+			sourceTree = "<group>";
+		};
+		EDD8E848EFA9D6D80BBBA5085C40360B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EC0E2E18985454AB6C7E77FE8DCA3F5C /* EHDComponentManager.h */,
+				74E201346E0737D43CAD36BD146774AD /* EHDComponentManager.m */,
+			);
+			name = Manager;
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		F72EDC6FB0D209D7EACDA066E09054B9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4136AAA22E8A7C2797992EA2F4A53311 /* EHDComponent.podspec */,
+				889140845A06F4089E404E7254AA81DF /* LICENSE */,
+				60DA79C51BB7B2C4BB0582ABB272C074 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FCB2221641CC0C47A1A470B8B94EE5AD /* EHDLocalConfig */ = {
+			isa = PBXGroup;
+			children = (
+				D378741E6DA3E48AB4AF2A7398F32B9D /* Core */,
+				67E4A90F4281CE1654B0FF2A065FE12D /* MJExtension */,
+				1EF1D2F9A62C88BC877FC64529E69D2F /* Support Files */,
+			);
+			name = EHDLocalConfig;
+			path = EHDLocalConfig;
+			sourceTree = "<group>";
+		};
+		FD4C01EDC2E020ADCF44C4752EE4F17A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DE9834042BCCF970B73F4D302C33D6A7 /* AbsLayer */,
+				B5A036FB1D9847DEDEF2BD86C131885D /* Component */,
+				0772D6D835B1F07B6D3C64559F829D23 /* PlugInterface */,
+			);
+			name = Core;
+			path = EHDComponent/Classes/Core;
+			sourceTree = "<group>";
+		};
+		FE7B7B485D2919B6CCE60B4979D6D7F7 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				195FA11103353F6435B90EA0332E0023 /* EHDComponentHandler.h */,
+				DBC6EAEBB48FBF1F0311C6C6E014555A /* EHDComponentHandler.m */,
+				4790499747851143E09670D287BC4F60 /* EHDComponentStruct.h */,
+				7C3E7DCE4F2F946F2F7E4E44EA17F292 /* EHDComponentStruct.m */,
+			);
+			name = Handler;
+			path = Handler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3EAF028E6D80825E1FF689C31EB7FB7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6566092EC456E7C075FA84BD3D2EAC03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664A1D6894B85552DA0504786EA5EFF5 /* MJExtension.h in Headers */,
+				632A045DAB1368BF30CF4AC5E6DEB071 /* MJExtensionConst.h in Headers */,
+				B947908EE6A90DFF31408F6608299E3D /* MJFoundation.h in Headers */,
+				346FB8778E328C21126B083DF5E0F8B1 /* MJProperty.h in Headers */,
+				0F71139E9D62A1C7D65EEC4C0B689821 /* MJPropertyKey.h in Headers */,
+				0C45C37ECC3CE2C6F4265E3E550D80A9 /* MJPropertyType.h in Headers */,
+				C2C712C1D6E315859FBDCF34CB5264B2 /* NSObject+MJClass.h in Headers */,
+				41F4F4284D40CBBACC6E6C925674AA51 /* NSObject+MJCoding.h in Headers */,
+				5A1FCA7FD2043844BB0455D57CC2AB8A /* NSObject+MJKeyValue.h in Headers */,
+				A2BA6D8B6AE3DEB08CB653458E761487 /* NSObject+MJProperty.h in Headers */,
+				BBED141775AD901552E96450C5382A18 /* NSString+MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA322FD21D24C69127E3CC57EEA436B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E612324F78A6BF9D82A883AF29DC138D /* EHDConfigBaseModel.h in Headers */,
+				1003CFF120BFB4509E9EA2AFF22017DB /* EHDLoadLocalConfig.h in Headers */,
+				C155932DDFABE20B60CAF65A82733C95 /* EHDLocalConfigProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE18AFBF4B0A98E0E9E6F1EDCA96C366 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BCD04FB64EF12D0A97827DC0DE215F /* EHDComponent.h in Headers */,
+				56CB603061335B8EAB37D51B0C05BE2C /* EHDComponentConfig.h in Headers */,
+				5C3057D7D72C9378DA234BB16DF59B73 /* EHDComponentHandler.h in Headers */,
+				ADB8097CDCB045CB0665B150B966636E /* EHDComponentHandlerMatcher.h in Headers */,
+				E52C93664122ABA6329562213DE14497 /* EHDComponentHandlerPlug.h in Headers */,
+				905B7787B8AC9721EC9BAD82D929E267 /* EHDComponentManager.h in Headers */,
+				91D962EA3B78536358A97F941CA57474 /* EHDComponentMarco.h in Headers */,
+				BC1341AB757F4F6FFD8093200921B171 /* EHDComponentReflect.h in Headers */,
+				5B4C55A069A84AA027843B9EA8401248 /* EHDComponentRoutable.h in Headers */,
+				EFF4CD60CEB530FCB3BA0BA9774D053C /* EHDComponentStruct.h in Headers */,
+				552A79539DE3B70A9C4358644A342F69 /* EHDEventBus.h in Headers */,
+				D2D5E3949E2450A1FF17F3FDC8968477 /* EHDServiceBus.h in Headers */,
+				A8FBA4ED2EB7D3760AEB026140C5479D /* EHDServiceRoutePlugin.h in Headers */,
+				42CE1B41A49D5CFD7344CE2FBD7890C8 /* EHDUIBus.h in Headers */,
+				50C0BBB6E9993F08474C97566DF5F6CC /* EHDURLParse.h in Headers */,
+				D1C09B2B01A5C499ADA31707346284A4 /* EHDURLRoute.h in Headers */,
+				795D7F3D90BBD5395B174ADF1A0C3969 /* EHDURLRoutePlug.h in Headers */,
+				E5E5263185FCC0F26C759765D2BBE08C /* NSObject+ComponentBridge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE51F54FE76466FF0D217454AAF743A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3BD1CA453CA8D39A50D92AB4AE7FC2EF /* MJExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7C15DBDD2AE7FF56822BEBD3ABFF151 /* Build configuration list for PBXNativeTarget "MJExtension" */;
+			buildPhases = (
+				6566092EC456E7C075FA84BD3D2EAC03 /* Headers */,
+				9B52050A5F3D3EBF673924F827D0AC70 /* Sources */,
+				08E3CF8787E0D4C61BCE227EE2EB46DB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJExtension;
+			productName = MJExtension;
+			productReference = 587AD140A91F7EFD202B517B847F85CE /* libMJExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		62BE20B76BD98B622A03496596786B9C /* Pods-EHDComponent_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B533E3C83A2B653ED5AECFE59B6E1846 /* Build configuration list for PBXNativeTarget "Pods-EHDComponent_Example" */;
+			buildPhases = (
+				AE51F54FE76466FF0D217454AAF743A1 /* Headers */,
+				3A96AD3E1F7351DD20AFD34970308C7F /* Sources */,
+				FF9B4FAC1B6A5C6B03AD33CD4F6856A0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7A83375E94DE79DACE37C3211AD9A2D /* PBXTargetDependency */,
+				453D50309FDE7C317F9DCE3A09DD50DB /* PBXTargetDependency */,
+				84D431D930A3CAE7B661358A55ADD3E2 /* PBXTargetDependency */,
+			);
+			name = "Pods-EHDComponent_Example";
+			productName = "Pods-EHDComponent_Example";
+			productReference = BA5BC7620C00EDC16B5F6A5B02E0B6BF /* libPods-EHDComponent_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8CA3DF51D0B25B52E0E8234480C1D678 /* EHDComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C2BA70500AC5B8589024E9C466FC11C /* Build configuration list for PBXNativeTarget "EHDComponent" */;
+			buildPhases = (
+				AE18AFBF4B0A98E0E9E6F1EDCA96C366 /* Headers */,
+				A5771542A81FBDA31010D10E8BE26A88 /* Sources */,
+				2A2C3FEE45B09A4B536D13DEB556ED35 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EHDComponent;
+			productName = EHDComponent;
+			productReference = 05851D8DF06397AA1E32E728D14BA54D /* libEHDComponent.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8E7E28D4D9217B267787162AD3DA350F /* Pods-EHDComponent_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5BBEDEDD8689162A73E34437E551185 /* Build configuration list for PBXNativeTarget "Pods-EHDComponent_Tests" */;
+			buildPhases = (
+				3EAF028E6D80825E1FF689C31EB7FB7E /* Headers */,
+				70DBF00017224F9967F68C9DC490BDEE /* Sources */,
+				4A6E32DC7B19C83B9EFCFCC405BE9077 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EHDComponent_Tests";
+			productName = "Pods-EHDComponent_Tests";
+			productReference = 4E47F5D733FE6F61DBD93FF72A9A9226 /* libPods-EHDComponent_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		96EF2DE92514B92DD23E7738AA901B5A /* EHDLocalConfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E4535423775A6C56EA46F096E20E14 /* Build configuration list for PBXNativeTarget "EHDLocalConfig" */;
+			buildPhases = (
+				AA322FD21D24C69127E3CC57EEA436B7 /* Headers */,
+				8A189976093A3867E529FCD27FD36C2E /* Sources */,
+				67D1453403C8099B97E68EA74789079E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAF17DCE78D5D6C910107B22FBE51D80 /* PBXTargetDependency */,
+			);
+			name = EHDLocalConfig;
+			productName = EHDLocalConfig;
+			productReference = DE1D839CD3AD7F64F8768F8FFE0A8366 /* libEHDLocalConfig.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 93095EC3A451241E15191255C1A77F55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CA3DF51D0B25B52E0E8234480C1D678 /* EHDComponent */,
+				96EF2DE92514B92DD23E7738AA901B5A /* EHDLocalConfig */,
+				3BD1CA453CA8D39A50D92AB4AE7FC2EF /* MJExtension */,
+				62BE20B76BD98B622A03496596786B9C /* Pods-EHDComponent_Example */,
+				8E7E28D4D9217B267787162AD3DA350F /* Pods-EHDComponent_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A96AD3E1F7351DD20AFD34970308C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0350E5A5903E2624CFD1DB199C9EE84 /* Pods-EHDComponent_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DBF00017224F9967F68C9DC490BDEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97DE972F70714D1E67A7818EFA7ED9D9 /* Pods-EHDComponent_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A189976093A3867E529FCD27FD36C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A238939D8FA655A2153CB75161C1EDD /* EHDConfigBaseModel.m in Sources */,
+				114A736CD8EB74E1B68E65A2CDE4D39F /* EHDLoadLocalConfig.m in Sources */,
+				4792637076C07E7920CB0BE595F7EA8A /* EHDLocalConfig-dummy.m in Sources */,
+				FAEE789B4EFBCAD3DFB23D6CA383447D /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B52050A5F3D3EBF673924F827D0AC70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A238E03C03B60269011C8BD1B2952F /* MJExtension-dummy.m in Sources */,
+				966C7C7D4EC5282D74CE602492610271 /* MJExtensionConst.m in Sources */,
+				6D7B4809ADAF788315A9F9559EB04061 /* MJFoundation.m in Sources */,
+				8C9912A5A638B2342DFF79F67A17D82A /* MJProperty.m in Sources */,
+				FAF81219A301A9518DC1C6F80569611E /* MJPropertyKey.m in Sources */,
+				A9F8EB253F446D9CC16D3F75C984B35B /* MJPropertyType.m in Sources */,
+				9E0943BF08C03AF14BA97FFD59684142 /* NSObject+MJClass.m in Sources */,
+				65D636386293987C718CD024ED0CBF6E /* NSObject+MJCoding.m in Sources */,
+				927E13907B34513308869C6313ACCCDB /* NSObject+MJKeyValue.m in Sources */,
+				9BD648E5972F632042B26F7202F6D739 /* NSObject+MJProperty.m in Sources */,
+				3D61384A033BE346E4B9B8F98E2F3A63 /* NSString+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5771542A81FBDA31010D10E8BE26A88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6F08A993B7B6ED487381C35848077D /* EHDComponent-dummy.m in Sources */,
+				421A28A729C690605E428B8025B31472 /* EHDComponentConfig.m in Sources */,
+				0E694422F69BDACD90BFB2C2EDF1739B /* EHDComponentHandler.m in Sources */,
+				8634AF145C428E5225594323F3E55712 /* EHDComponentHandlerMatcher.m in Sources */,
+				4378EF22A6021F3E814F1220BC5AA804 /* EHDComponentManager.m in Sources */,
+				D91B15AE615FF844ED810F591DCBE5E6 /* EHDComponentReflect.m in Sources */,
+				C1F30F81810E0151BD47091E7F0B7B58 /* EHDComponentStruct.m in Sources */,
+				D11BD0ED55D8699EDAE05AC7D7B68113 /* EHDEventBus.m in Sources */,
+				92B49F70DD499C81F1D5BC0AB81F1516 /* EHDServiceBus.m in Sources */,
+				8742E7C4A4B17E642B84581955AB1A2C /* EHDUIBus.m in Sources */,
+				B1A5E7B865E8F1E7E9BEDCC988865604 /* EHDURLParse.m in Sources */,
+				D858A358B3F124D1FBD02D10793846B5 /* EHDURLRoute.m in Sources */,
+				33563A812BDC230481C6188CF6D8D155 /* NSObject+ComponentBridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		453D50309FDE7C317F9DCE3A09DD50DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EHDLocalConfig;
+			target = 96EF2DE92514B92DD23E7738AA901B5A /* EHDLocalConfig */;
+			targetProxy = 97E35D3D13652402D2FFD8584CD00C1F /* PBXContainerItemProxy */;
+		};
+		84D431D930A3CAE7B661358A55ADD3E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = 3BD1CA453CA8D39A50D92AB4AE7FC2EF /* MJExtension */;
+			targetProxy = F01C7A4EF73770594AB74197AB9F09D1 /* PBXContainerItemProxy */;
+		};
+		AAF17DCE78D5D6C910107B22FBE51D80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJExtension;
+			target = 3BD1CA453CA8D39A50D92AB4AE7FC2EF /* MJExtension */;
+			targetProxy = 2C6BC309607C089369336E4C52C0BD84 /* PBXContainerItemProxy */;
+		};
+		E7A83375E94DE79DACE37C3211AD9A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EHDComponent;
+			target = 8CA3DF51D0B25B52E0E8234480C1D678 /* EHDComponent */;
+			targetProxy = F6FFB946CE1E232CE05865B07B3F270C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		096330D2F5F30FA2A1601611F9437162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9F970F314DA215722B0B3E80696C9D /* EHDComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EHDComponent/EHDComponent-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		146474F8094F860AA170B7A79443A471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6DFBD5EB51CAA0C41C68FA4F004C3D0 /* Pods-EHDComponent_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F3B1E6F8B1ECFAC21E913E074F0287F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BF27E91F0BE88A410E6D16806288808 /* Pods-EHDComponent_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4184EB8EB1CC0EF48E3651ED02B3EAA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44075DD3F874CF2FB7D80A8B8004A0C4 /* MJExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E17973DAC6D4559EF10E050E58D9F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E882EB670A2C9E00D9DC34AFA2FB9E /* Pods-EHDComponent_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D08B7FA496C38518AFA8B2A1FAC1024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9030057C8775379599AC489F95702A /* EHDLocalConfig.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EHDLocalConfig/EHDLocalConfig-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		756F0E34A9FC20F8A4B175EC76B4CDE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9F970F314DA215722B0B3E80696C9D /* EHDComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EHDComponent/EHDComponent-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C0BA5B7D90CF5117EBC11A30F1564A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A9F12559E4618D3B4F68FF95ED69CD /* Pods-EHDComponent_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD15386609EBB582148203CB82158513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44075DD3F874CF2FB7D80A8B8004A0C4 /* MJExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MJExtension/MJExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C41F405EF0AD6A7455046BB566CB63B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CCBBAA6BBF712344CA62E5AF20221A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9030057C8775379599AC489F95702A /* EHDLocalConfig.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EHDLocalConfig/EHDLocalConfig-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE84F6547DC0CBB7F2192F84B3C3B462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C2BA70500AC5B8589024E9C466FC11C /* Build configuration list for PBXNativeTarget "EHDComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096330D2F5F30FA2A1601611F9437162 /* Debug */,
+				756F0E34A9FC20F8A4B175EC76B4CDE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E4535423775A6C56EA46F096E20E14 /* Build configuration list for PBXNativeTarget "EHDLocalConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCBBAA6BBF712344CA62E5AF20221A36 /* Debug */,
+				6D08B7FA496C38518AFA8B2A1FAC1024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE84F6547DC0CBB7F2192F84B3C3B462 /* Debug */,
+				C41F405EF0AD6A7455046BB566CB63B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B533E3C83A2B653ED5AECFE59B6E1846 /* Build configuration list for PBXNativeTarget "Pods-EHDComponent_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E17973DAC6D4559EF10E050E58D9F6A /* Debug */,
+				9C0BA5B7D90CF5117EBC11A30F1564A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5BBEDEDD8689162A73E34437E551185 /* Build configuration list for PBXNativeTarget "Pods-EHDComponent_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146474F8094F860AA170B7A79443A471 /* Debug */,
+				3F3B1E6F8B1ECFAC21E913E074F0287F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7C15DBDD2AE7FF56822BEBD3ABFF151 /* Build configuration list for PBXNativeTarget "MJExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4184EB8EB1CC0EF48E3651ED02B3EAA7 /* Debug */,
+				BD15386609EBB582148203CB82158513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

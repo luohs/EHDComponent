@@ -1,0 +1,46 @@
+{
+  "name": "EHDComponent",
+  "version": "1.0.0",
+  "summary": "A short description of EHDComponent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/luohs/EHDComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luohs": "18330@etransfar.com"
+  },
+  "source": {
+    "svn": "https://10.7.12.91/repo/EHDiOS/trunk/EHDComponentRepo/EHDComponent",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "URLRoute",
+      "source_files": [
+        "EHDComponent/Classes/Extension/Route/URLRoute/*.{m,h}"
+      ]
+    },
+    {
+      "name": "Core",
+      "source_files": [
+        "EHDComponent/Classes/Core/AbsLayer/Handler/*.{m,h}",
+        "EHDComponent/Classes/Core/AbsLayer/Layer/*.{m,h}",
+        "EHDComponent/Classes/Core/Component/Manager/*.{m,h}",
+        "EHDComponent/Classes/Core/Component/Recognizer/*.{m,h}",
+        "EHDComponent/Classes/Core/Component/WorkBus/*.{m,h}",
+        "EHDComponent/Classes/Core/PlugInterface/*.{m,h}",
+        "EHDComponent/Classes/Common/*.{m,h}"
+      ],
+      "dependencies": {
+        "EHDComponent/URLRoute": [
+
+        ]
+      }
+    }
+  ]
+}

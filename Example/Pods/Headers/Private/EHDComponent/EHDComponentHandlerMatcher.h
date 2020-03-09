@@ -1,0 +1,1 @@
+../../../../../EHDComponent/Classes/Core/Component/Recognizer/EHDComponentHandlerMatcher.h

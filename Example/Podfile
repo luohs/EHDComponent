@@ -1,0 +1,14 @@
+#use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs.git'
+plugin 'cocoapods-repo-svn', :sources => ['https://10.7.12.91/repo/EHDiOS/trunk/EHDSpecRepo']
+
+target 'EHDComponent_Example' do
+  pod 'EHDComponent', :path => '../'
+  pod 'EHDLocalConfig', '0.3.0'
+  target 'EHDComponent_Tests' do
+    inherit! :search_paths
+
+#    pod 'FBSnapshotTestCase'
+  end
+end

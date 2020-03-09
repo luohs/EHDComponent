@@ -1,0 +1,4 @@
+<componentreg>
+    <!-- test类 -->
+    <component name="TestA" class="EHDTestAViewController" selector="" />
+</componentreg>
